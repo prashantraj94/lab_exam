@@ -1,0 +1,302 @@
+ 1  mkdir myfolder
+    2  cd myfolder
+    3  sudo yum install git
+    4  git version
+    5  whatprovide java
+    6  sudo yum install java-17-amazon-corretto-17.0.4+9-1.amzn2.1.x86_64sudo yum install java-17-amazon-corretto-17.0.4+9-1.amzn2.1.x86_64sudo yum install java-17-amazon-corretto-17.0.4+9-1.amzn2.1.x86_64
+    7  git clonehttps://github.com/LuisJoseSanchez/hello-world-java.git
+    8  git clone https://github.com/LuisJoseSanchez/hello-world-java.git
+    9  cd hello-world-java
+   10  cd helloworld.java
+   11  cd HelloWorld.java
+   12  clear
+   13  cd HelloWorld.java
+   14  ls
+   15  cd Helloworld
+   16  cd hello-world-java
+   17  ls
+   18  cd hello-world-java
+   19  java HelloWorld.java
+   20  yum whatprovides docker
+   21  sudo yum install docker-18.09.9ce-2.amzn2.x86_64
+   22  java -version
+   23  exit
+   24  docker --version
+   25  sudo docker images
+   26  sudo systemctl start docker
+   27  sudo service docker start
+   28  sudo sytemctl status docker
+   29  sudo systemctl status docker
+   30  sudo docker images
+   31  sudo docker pull hello-world
+   32  sudo docker images
+   33  sudo docker pull ubuntu
+   34  sudo docker images
+   35  sudo docker ps
+   36  sudo docker ps -a
+   37  sudo docker run hello-world
+   38  sudo docker run -it hello-world
+   39  sudo docker ps
+   40  sudo docker ps -a
+   41  sudo docker run -it -d hello-world
+   42  sudo docker ps
+   43  sudo docker ps -a
+   44  sudo docker exec -it 0b12a5bd72d6 bash
+   45  sudo docker run -it ubuntu
+   46  sudo docker ps -a
+   47  sudo docker run -it -d ubuntu
+   48  sudo docker ps -a
+   49  sudo docker ps
+   50  sudo docker stop
+   51  sudo docker stop 276947e5bf6
+   52  sudo docker ps
+   53  sudo docker stop 81d0e808db24
+   54  sudo docker ps
+   55  sudo docker start 81d0e808db24
+   56  sudo docker ps
+   57  sudo docker stop 81d0e808db24
+   58  sudo docker ps
+   59  sudo docker images
+   60  sudo docker rmi 216c552ea5ba
+   61  sudo docker ps
+   62  sudo docker rmi 216c552ea5ba
+   63  sudo docker rmi 216c552ea5ba --force
+   64  sudo docker images
+   65  sudo docker ps
+   66  sudo docker ps -a
+   67  sudo docker rm 276947e5bf6c
+   68  sudo docker ps -a
+   69  sudo docker rm 99d8f220aed7
+   70  sudo docker ps -a
+   71  sudo docker rm 81d0e808db24
+   72  sudo docker ps -a
+   73  sudo docker images
+   74  sudo docker ps -a
+   75  sudo docker exec -it 0b12a5bd72d6 bash
+   76  sudo docker start 0b12a5bd72d6
+   77  sudo docker exec -it 0b12a5bd72d6 bash
+   78  sudo docker exec -it 0b12a5bd72d6
+   79  sudo docker ps
+   80  sudo docker images
+   81  sudo docker ps -a
+   82  sudo docker start 0b12a5bd72d6
+   83  sudo docker ps -a
+   84  sudo docker ps
+   85  sudo docker restart 0b12a5bd72d6
+   86  sudo docker ps
+   87  sudo docker run -it -d hello-world
+   88  sudo docker ps
+   89  sudo docker ps -a
+   90  sudo docker start 0b12a5bd72d6
+   91  sudo docker ps -a
+   92  sudo docker ps
+   93  mkdir myfolder
+   94  cd myfolder
+   95  vi editor
+   96  ls
+   97  hello-world-java
+   98  vi hello-world-java
+   99  ls
+  100  cd myfolder
+  101  ls
+  102  java Hello.java
+  103  vi Hello.java
+  104  javac Hello.java
+  105  java Hello.java
+  106  vi Hello.java
+  107  java Hello.java
+  108  vi Hello.java
+  109  java Hello.java
+  110  vi Hello.java
+  111  java Hello.java
+  112  vi Hello.java
+  113  java Hello.java
+  114  vi Dockerfile
+  115  sudo docker build -t java .
+  116  sudo docker images
+  117  sudo docker build -t newimages
+  118  sudo docker build -t java
+  119  sudo docker build -t myimages
+  120  sudo docker build -t myimages .
+  121  sudo docker images
+  122  sudo docker login
+  123  sudo docker tag e61d9c7aebe6
+  124  sudo docker push prashant9496/code123
+  125  sudo docker tag e61d9c7aebe6 prashant9496/code123:mynewimages
+  126  sudo docker push prashant9496/code123
+  127  sudo docker images
+  128  sudo systemctl start docker
+  129  sudo service docker start
+  130  sudo docker images
+  131  mkdir myfolder1
+  132  cd myfolder1
+  133  vi Hello.java
+  134  java Hello.java
+  135  vi Hello.java
+  136  java Hello.java
+  137  vi Hello.java
+  138  cd myfolder
+  139  cd
+  140  cd myfolder
+  141  vi Hello.java
+  142  cd
+  143  cd myfolder1
+  144  vi Hello.java
+  145  java Hello.java
+  146  clear
+  147  java Hello.java
+  148  sudo docker images
+  149  sudo docker ps
+  150  sudo docker ps -a
+  151  sudo docker run Hello
+  152  sudo docker run hello
+  153  vi Dockerfile
+  154  sudo docker build -t mynewimage .
+  155  sudo docker images
+  156  sudo docker login
+  157  sudo docker push
+  158  sudo docker push prashant9496/code123
+  159  sudo docker images
+  160  sudo docker ps -a
+  161  clear
+  162  sudo docker images
+  163  ls
+  164  sudo docker images
+  165  sudo docker mynewimage:latest
+  166  sudo docker run mynewimage:latest
+  167  vi Dockerfile
+  168  java Hello.java
+  169  cd
+  170  mkdir assignment7
+  171  cd assignment7
+  172  vi welcome
+  173  vi welcome.java
+  174  java welcome.java
+  175  sudo Dockerfile
+  176  vi Dockerfile
+  177  sudo docker build -t mynewimage1 .
+  178  sudo docker run mynewimage1:latest2
+  179  sudo docker images
+  180  sudo docker run mynewimage1:latest
+  181  vi Dockerfile
+  182  sudo docker run mynewimage1:latest
+  183  sudo docker build -t mynewimage2 .
+  184  sudo docker run mynewimage2:latest
+  185  sudo docker push prashant9496/code1234:latest
+  186  sudo docker iamages
+  187  sudo docker image
+  188  sudo docker ps -a
+  189  sudo docker iamge
+  190  sudo docker image
+  191  sudo docker images
+  192  sudo docker push 9adeed132ac9  prashant9496/code1234
+  193  sudo docker push 9adeed132ac9  prashant9496/code1234 .
+  194  sudo docker tag 9adeed132ac9  prashant9496/code1234:mynewimages2
+  195  sudo docker tag prashant9496/code1234:mynewimages2
+  196  sudo docker tag 9adeed132ac9  prashant9496/code1234:mynewimages2
+  197  ls
+  198  cd assignment
+  199  cd assignment7
+  200  ls
+  201  vi Dockerfile
+  202  sudo docker tag 9adeed132ac9  prashant9496/code1234:mynewimages2
+  203  sudo docker push prashant9496/code1234:latest
+  204  sudo docker push 9adeed132ac9  prashant9496/code1234:latest
+  205  sudo docker push prashant9496/code1234
+  206  clear
+  207  mkdir myworld
+  208  cd myworld
+  209  vi Myworld.java
+  210  java Myworld.java
+  211  vi Myworld.java
+  212  java Myworld.java
+  213  sudo docker build -t mynewimage3 .
+  214  vi Dockerfile
+  215  sudo docker build -t mynewimage3 .
+  216  vi Dockerfile
+  217  sudo docker build -t mynewimage4 .
+  218  vi Dockerfile
+  219  sudo docker build -t mynewimage4 .
+  220  cd myworld
+  221  ls
+  222  mkdir Myworld
+  223  cd Myworld
+  224  ls
+  225  cd
+  226  ls
+  227  cd Myworld
+  228  vi Myworld.java
+  229  java Myworld.java
+  230  vi Dockerfile
+  231  sudo docker build -t mynewimage4 .
+  232  sudo docker push prashant9496/code1234:latest
+  233  sudo docker run mynewimage4:latest
+  234  sudo doker images
+  235  sudo docker images
+  236  sudo docker tag 4a7fd0a7beda prashant9496/code1234:mynewimages2
+  237  sudo docker tag 4a7fd0a7beda prashant9496/code1234:mynewimages4
+  238  sudo docker push prashant9496/code1234:latest
+  239  sudo doker push prashant9496/code1234
+  240  sudo docker push prashant9496/code1234
+  241  clear
+  242  cd
+  243  clear
+  244  mkdir newproject
+  245  cd newproject
+  246  vi Newworld.java
+  247  java Newworld.java
+  248  vi Dockerfile
+  249  sudo docker build -t mynewimages5 .
+  250  sudo docker images
+  251  sudo docker run mynewimages5:latest
+  252  sudo docker ps -a
+  253  sudo docker tag  5dd8887999ce prashant9496/code1234:mynewimages5
+  254  sudo docker push prashant9496/code1234
+  255   exit
+  256  sudo systemctl start docker
+  257  sudo service docker stsrt
+  258  mkdir myfolder
+  259  ls
+  260  clear
+  261  mkdir project
+  262  cd project
+  263  vi project.java
+  264  java project.java
+  265  vi Dockerfile
+  266  sudo dockerbuild -t mynewimage .
+  267  sudo docker build -t mynewimage .
+  268  vi Dockerfile
+  269  sudo docker build -t mynewimage .
+  270  sudo docker run mynewimage:latest
+  271  ls
+  272  sudodoker images
+  273  sudo docker images
+  274  sudo docker tag 53a41d633d42 prashant9496/code1234:myimages
+  275  sudo doker push prashant9496/code1234
+  276  sudo docker push prashant9496/code1234
+  277  sudo docker pull prashant9496/code1234:mynewimages
+  278  sudo docker pull prashant9496/code1234:myimages
+  279  sudo docker build -t mynewimage .
+  280  sudo docker run mynewimage:latest
+  281  sudo docker commit
+  282  sudo docker rmi
+  283  sudo docker ps -a
+  284  sudo docker ps
+  285  sudo docker start bc0408e988eb 
+  286  sudo docker ps -a
+  287  history
+  288  sudo docker pull ubuntu
+  289  sudo docker ps -a
+  290  sudo docker run -it ubuntu
+  291  sudo docker ps -a
+  292  sudo docker stop 4698099dfb11
+  293  sudo docker ps -a
+  294  sudo docker imahes
+  295  sudo docker images
+  296  sudo docker rm 4698099dfb11 
+  297  sudo docker ps -a
+  298  sudo docker rmi 5dd8887999ce  
+  299  sudo docker rmi 5dd8887999ce  force
+  300  history
+  301  sudo docker rmi 5dd8887999ce --force
+  302  history
